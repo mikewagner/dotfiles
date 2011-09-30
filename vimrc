@@ -1,4 +1,8 @@
 set nocompatible
+set number
+set softtabstop=2
+set expandtab
+set number
 
 let mapleader = "\\"
 
