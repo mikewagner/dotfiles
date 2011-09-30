@@ -1,0 +1,52 @@
+[user]
+  name = mwagner
+  email = michael.wagner@fsc.follett.com
+[alias]
+  s = status
+  b = branch
+  c = commit -m
+  a = add
+  aa = !git add -u && git add . && git status
+  cob = checkout -b
+  co = checkout
+  up = !git fetch origin && git rebase origin/master
+  ir = !git rebase -i origin/master
+  done = !git fetch && git rebase origin/master && git checkout master && git merge @{-1} && git push
+  check = !rspec spec
+[github]
+  user = mikewagner
+[format]
+  # git log uses --pretty format by default, so this changes the default
+  # format
+  # Now log uses --pretty by default
+  # 4436819 [23 hours ago] (Gabe Berke-Williams) One line prompt
+  pretty = %C(magenta reverse)%h%Creset %Cgreen[%cr]%Creset (%an) %s
+[color]
+  ui = auto
+[color "branch"]
+  # What colors should "git branch" show?
+  #current = yellow reverse # default black
+  #local = cyan # default yellow
+  #remote = green # default red
+[color "diff"]
+  # Color syntax: <foreground> <background>
+  # So "normal red" is normal foreground, red background
+  # BUT bold is a modifier, so "bold green red" means
+  #   "bold green" foreground, red background
+  whitespace = red reverse
+  plain = black
+  meta = cyan
+  frag = magenta bold
+  old = red
+  new = green
+  commit = yellow
+[color "status"]
+  # Options:
+  # header: the header text of the status message
+  # added/updated: added but not committed
+  # changed: changed but not added in the index
+  # untracked
+  # nobranch: the color the "no branch" warning is shown in (default red)
+  added = yellow # files deleted with "git rm" are this color too
+  changed = green # deleted items NOT done with "git rm" are this color too
+  untracked = cyan
