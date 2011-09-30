@@ -1,5 +1,5 @@
 setopt auto_cd
-cdpath=(. $HOME/dev/personal $HOME/dev/thoughtbot $HOME/dev/gems)
+cdpath=(. $HOME/development)
 
 current() {
   if [[ -f $CURRENT_PROJECT_PATH ]]; then
