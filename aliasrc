@@ -1,0 +1,25 @@
+# ruby/rails
+alias tf="ruby_test functional"
+alias tu="ruby_test unit"
+alias sc="ruby_spec controllers"
+alias sm="ruby_spec models"
+alias bes="bundle exec rspec"
+alias ber="bundle exec rake"
+alias be="bundle exec"
+
+# git
+alias g="git"
+alias gbr="git remote prune origin && git branch -r"
+
+# filesystem
+alias ..="cd ../"
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias o=$EDITOR
+alias dotf="cd $HOME/.dotfiles"
+
+# services
+alias nick="mplayer ~/Music/Theme\ Music/528491.wav > /dev/null 2>&1"
+
+# misc.
+alias timestamp="date +%Y%m%d%H%M%S"
