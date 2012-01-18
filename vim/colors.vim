@@ -7,5 +7,5 @@ endif
 
 " Color scheme
 set t_Co=256
-colorscheme railscasts
+colorscheme rdark
 match Error /\%80v.\+/
