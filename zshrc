@@ -6,5 +6,7 @@ for zsh_source in $HOME/.zsh_profile.d/*.zsh; do
   source $zsh_source
 done
 
+DISABLE_LS_COLORS="false"
+
 source $HOME/.aliasrc
 source $HOME/.zsh_profile.d/rvm
