@@ -11,6 +11,7 @@
   co = checkout
   up = !git fetch origin && git rebase origin/master
   ir = !git rebase -i origin/master
+  l = "!source ~/.githelpers && pretty_git_log"
   done = !git fetch && git rebase origin/master && git checkout master && git merge @{-1} && git push
   check = !rspec spec
 [github]
