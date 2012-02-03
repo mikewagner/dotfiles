@@ -7,5 +7,5 @@ endif
 
 " Color scheme
 set t_Co=256
-colorscheme rdark
+colorscheme eddie
 match Error /\%80v.\+/
