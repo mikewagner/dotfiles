@@ -63,7 +63,7 @@ _color() {
 }
 
 _user_name() {
-  if [ $USER != "joshuaclayton" ]; then
+  if [ $USER != "mwagner" ]; then
     echo "$USER "
   fi
 }
