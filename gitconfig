@@ -11,7 +11,7 @@
   di = diff
   dc = diff --cached
   a = add
-  aa = add --all && git st
+  aa = add --all 
   ra = !git r --all
   ff = merge --ff-only
   pullff = pull --ff-only

@@ -1,5 +1,15 @@
-set nocompatible
-set number
+set nocompatible                  " Must come first because it changes other options.
+
+silent! call pathogen#runtime_append_all_bundles()
+
+syntax enable                     " Turn on syntax highlighting.
+filetype plugin indent on         " Turn on file type detection.
+
+set showcmd                       " Display incomplete commands.
+set showmode                      " Display the mode you're in.
+
+set backspace=indent,eol,start    " Intuitive backspacing.
+set number                        " Display line numbers
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
