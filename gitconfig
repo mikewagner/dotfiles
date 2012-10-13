@@ -1,9 +1,9 @@
 [user]
-  name = Michael Wagner
+	name = Mike Wagner
   email = mwagner@digitalinsites.com
 [alias]
-  s = status
-  st = status
+  s = status -sb
+  st = status -sb
   b = branch
   cm = commit -m
   c = commit
@@ -23,6 +23,7 @@
   done = !git fetch && git rebase origin/master && git checkout master && git merge @{-1} && git push
   check = !rspec spec
   pom = push origin master
+  sf = show --name-only
 [github]
   user = mikewagner
 [format]
@@ -60,3 +61,5 @@
   added = yellow # files deleted with "git rm" are this color too
   changed = green # deleted items NOT done with "git rm" are this color too
   untracked = cyan
+[core]
+	excludesfile = /Users/mwagner/.gitignore_global

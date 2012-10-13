@@ -6,7 +6,6 @@ if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
 endif
 
 " Color scheme
-" set t_Co=256
-" set background=dark
+set t_Co=256
 colorscheme github
 match Error /\%80v.\+/

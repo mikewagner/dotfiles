@@ -13,3 +13,4 @@ editrc
 rdebugrc
 gitconfig
 githelpers
+tmux.conf

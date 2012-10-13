@@ -10,7 +10,9 @@ alias be="bundle exec"
 # git
 alias g="git"
 alias gbr="git remote prune origin && git branch -r"
-
+alias gcm="git cm"
+alias gl="git log"
+alias gs="git s"
 # filesystem
 alias ..="cd ../"
 alias ...="cd ../.."
@@ -20,8 +22,7 @@ alias dotf="cd $HOME/.dotfiles"
 
 alias ls="ls -G"
 
-# services
-alias nick="mplayer ~/Music/Theme\ Music/528491.wav > /dev/null 2>&1"
-
+# tmux
+alias ta="tmux attach -t"
 # misc.
 alias timestamp="date +%Y%m%d%H%M%S"
